@@ -1,0 +1,154 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:hsl(30, 54%, 90%)
+  }
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 100%;
+    
+    
+  }
+  img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  h1{
+    font-family: 'Young Serif', serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+  }
+  
+  p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+  }
+
+ h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: 15px;
+ }
+
+ hr{
+    border: 0;
+    height: 1px;
+    background-color: hsl(30, 10%, 34%);
+    margin: 30px 0;
+    opacity: 0.2;
+  }
+ .preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+    border-radius: 10px;
+    line-height: 1.8;
+ }
+
+ h2{
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif', serif;
+  font-weight: lighter;
+ }
+
+ .ingredients {
+    line-height: 1.8;
+  }
+  
+  .ingredients p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+ 
+ ul {
+    list-style: none;
+    padding-left: 0;
+
+  }
+  
+ li{
+    position: relative;
+    padding-left: 50px
+
+  }
+  
+  li::before {
+    content: "•";
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .instructions{
+    line-height: 1.6;
+  }
+
+  .instructions ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .instructions li{
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+  
+  .instructions li::before {
+    content: none; 
+  }
+
+.nutrition {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    max-width: 600px;
+    font-family: sans-serif;
+  }
+  
+  .nutrition p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  
+  
+  .nutrition td {
+    padding: 12px 25px;
+    border-top: 1px solid #eee;
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+  }
+  
+  .nutrition td strong {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+  }
+
+  .nutrition table tr:first-child td {
+    border-top: none;
+  }
+
+  .nutrition td:first-child {
+    color: hsl(30, 10%, 34%);
+    
+  }
